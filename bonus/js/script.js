@@ -1,9 +1,13 @@
 // delle prove con imput
 
-function myfunction (params) {
-    var x = document.getElementById('fname');
-    var z = document.getElementById('lname');
-    var y = document.getElementById('color');
-    var tot = x + z + y;
-    document.getElementById('password').innerHTML = tot + 21;
+
+
+function myfunction() {
+    var x = document.getElementById("fname").value;
+    var y = document.getElementById("lname").value;
+    var z = document.getElementById("color").value;
+    
+
+    document.getElementById("password").innerHTML = x + y + z + 21;
+
 }
